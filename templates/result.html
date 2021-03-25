@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dog/Cat-Classifier</title>
+  </head>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+    
+    <h1>{{pred}} </h1>
+    <br/>
+    <img src="{{ pic }}" alt="Ooops!!! Could not display image...."width="600" height="400" />
+    
+    {% endblock %}
+  </body>
+</html>
